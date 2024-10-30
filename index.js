@@ -1,5 +1,6 @@
 alert("Hello, this is a simple calculator!");
 
+function myFunction() { 
 let num1 = parseFloat(prompt("Enter a number: "));
 
 let num2 =  parseFloat(prompt("Enter a second number: "));
@@ -24,9 +25,9 @@ if (operator ==="+") {
         alert("Division with 0 not allowed");
     }
 } else {
-    // Om användaren anger ett ogiltigt räknesätt
     alert("Ooopsie: unvalid operator, use: +, -, * or /.");
 }
 
-// Avslutningsmeddelande
 alert("thank you for trying the calculator today!");
+}
+
